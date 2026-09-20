@@ -1,0 +1,330 @@
+body.mainpage{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(img/blue%20color%20grid.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family:sans-serif;
+}
+
+div.maincontant{
+    height: 700px;
+    font-size: larger
+    ;
+}
+
+div.bar{
+    display: flex;
+    justify-content: center;
+    color:black;
+    align-items: center;
+    background: rgba(0,0,0,0.6);
+    
+    
+    
+}
+div.joinnav{
+    background-color: black;
+}
+
+div.bar a{
+    margin: 30px;    
+    color:aliceblue;
+    font-weight: bold;
+    
+}
+
+div.bar button{
+    padding:10px;
+    border-radius: 5px;
+    border:2px solid white;
+    background-color: transparent;
+    color:aliceblue
+}
+
+div.details{
+    text-align: center;
+    padding-top: 100px;
+    color:white;
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+
+.details button{
+    padding:10px;
+    border-radius: 5px;
+    border:2px solid white;
+    background-color: transparent;
+    color:aliceblue;
+    font-size: medium
+}
+
+div.maingame{
+    display:flex;
+    width: 50%;
+    margin:auto;
+    align-items: center;
+    background-color:black;
+    color:aliceblue;
+    padding:40px;
+    border-radius: 20px;
+    line-height: 23px;
+    margin-top:100px;
+}
+div.gamedetials button{
+     padding:10px;
+    border-radius: 5px;
+    border:2px solid white;
+    background-color: transparent;
+    color:aliceblue;
+}
+
+div.maingame img{
+    margin-left: 100px;
+    border-radius: 10px
+}
+
+div.upcoming{
+    text-align: center;
+    color:aliceblue
+    
+    
+}
+div.items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:aliceblue
+    
+}
+div.item{
+    color:white;
+    align-items: center;
+    margin:50px;
+    padding:40px;
+    height: 120px
+    
+    
+    
+}
+
+div.del div.img{
+    border-radius: 400px;
+    height: 200px;
+    width: 200px;
+    background-image: url(img/delta2.png);
+    background-size: cover;
+    background-position: center
+       
+}
+
+div.bbq div.img{
+    border-radius: 400px;
+    height: 200px;
+    width: 200px;
+    background-image: url(img/ena%20dream%20bbq.png);
+    background-size: cover;
+    background-position: center
+       
+}
+
+div.mine div.img{
+    border-radius: 400px;
+    height: 200px;
+    width: 200px;
+    background-image:url(img/minsweeper%20plus.png);
+    background-size: cover;
+    background-position: center;   
+}
+
+
+
+div.postcontant{
+    margin-top: 250px;
+    color:white;
+    
+}
+div.postcontant h1 , div.postcontant p{
+    text-align: center;
+    
+}
+div.postcontant p{
+    font-size: 20px
+}
+
+
+div.post{
+    margin:25px;
+    background-color:black;
+    border-radius: 10px;
+    color:white; 
+    
+}
+
+div.posts{
+    display: flex;
+    width: 60%;
+    justify-content: space-around;
+    color:black;
+    align-items: center;
+    margin:auto;
+}
+
+div.post1 div.img , div.post2 div.img , div.post3 div.img{
+    background-image:url(img/ninah.png);
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px
+    
+}
+div.post2 div.img{
+    background-image:url(img/ena%20dream%20bbq.png);
+}
+div.post3 div.img{
+    background-image:url(img/minsweeper%20plus.png);
+}
+div.post h3 , div.post p , div.post h5{
+    padding-right:10px;
+    padding-left:10px;
+    text-align: left
+}
+
+div.tests{
+    text-align: center;
+    color:white;
+    margin-top: 200px;
+    
+}
+
+div.testies{
+    display: flex;
+    width: 60%;
+    justify-content: space-around;
+    color:black;
+    align-items: center;
+    margin:auto;
+    
+}
+div.test{
+    margin:25px;
+    background-color:black;
+    border-radius: 10px;
+    color:white;
+    width:50%;
+    padding:10px;
+    
+}
+
+div.test1 div.img{
+    border-radius: 300px;
+    height: 150px;
+    width: 150px;
+    background-image: url(img/download.jpe);
+    background-size: cover;
+    background-position: center;
+    margin:auto;
+    margin-top: -50px;
+    border:5px solid black;
+ 
+}
+
+div.test2 div.img{
+    border-radius: 300px;
+    height: 150px;
+    width: 150px;
+    background-image: url(img/Like.jpe);
+    background-size: cover;
+    background-position: center;
+    margin:auto;
+    margin-top: -50px;
+    border:5px solid black;
+}
+
+
+.pricing h3{
+    text-align:center
+}
+.prices{
+    display:flex;
+    justify-content: center;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+.price{
+    width: 30%;
+    margin:8px;
+    background-color:rgba(19, 10, 79, 0.93);
+    color: white;
+    padding-top:5px;
+    padding-bottom: 10px;
+    border-radius:10px
+}
+.price button{
+    padding:10px;
+    border-radius: 5px;
+    border:2px solid white;
+    background-color: transparent;
+    color:aliceblue;
+    font-size: medium 
+}
+.plan{
+    background-color:rgba(39, 13, 161, 0.72)
+    
+}
+
+.joinform{
+    display:flex;
+    justify-content: center;
+    margin:auto;
+    width:70%;
+    border:1px solid black;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+
+.joinform .image {
+    width:35%;
+    border-bottom-left-radius: 6px;
+    border-top-left-radius: 6px;
+}
+.joinform .form{
+    width:65%
+}
+.joinform .image{
+    background-image: url("img/back2.jpe");
+    background-size:cover;
+    background-position:center;
+    height: 450px;
+    width:300px;
+    padding:15px;
+}
+form input, form button{
+    padding:10px;
+    font-size:16px;
+    border:1px solid grey;
+    border-radius: 10px;
+    display: block;
+    margin: 10px;
+    
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width:60%;
+    margin: auto;
+    padding-top: 90px;
+}
+form button{
+    background-color: darkturquoise;
+    color:white
+}
+.foter{
+    margin-top: 50px;
+    background-color: rgba(0, 0, 0, 0.82);
+    color:white;
+    text-align: center;
+    padding: 10px;
+    
+}
